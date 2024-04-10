@@ -1,6 +1,6 @@
 class bstNode:
     def __init__(self, key, val):
-        self.key = key
+        self.key = int(key)
         self.val = val
         self.lc = None
         self.rc = None
